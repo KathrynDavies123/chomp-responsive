@@ -26,3 +26,50 @@ h2 {
     width:36%;
     margin-top:16px;
 }
+
+@media (min-width:414px) {
+    header {
+        background-position: center;
+    }
+
+    h2 {
+        width:25%;
+        margin-right:16px;
+    }
+}
+
+@media (min-width:600px) {
+    header {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: var(--pink);
+    }
+
+    h1 { 
+        font-size:var(--title-regular-size);
+        background-color: white;
+        width:100vw;
+        text-align: center;
+        padding:24px;
+    }
+
+    h2 {
+        color:var(--white);
+        font-weight:var(--black-weight);
+        font-size:var(--regular-size);
+        line-height:var(--large-lh);
+        align-self: flex-start;
+        text-align: right;
+    }
+}
+
+@media (min-width:900px) {
+    header {
+        background-size: 50%;
+    }
+
+    h2 {
+        margin-left:250px;
+    }
+}
