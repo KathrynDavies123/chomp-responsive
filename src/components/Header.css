@@ -1,0 +1,28 @@
+header {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-image: url("../img/dalmation.png");
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+}
+
+h1 {
+    color:var(--black);
+    font-family:var(--title-font);
+    font-weight:var(--regular-weight);
+    font-size:var(--small-size);
+    line-height: var(--regular-lh);
+}
+
+h2 {
+    color:var(--pink);
+    font-family:var(--primary-font);
+    font-weight:var(--black-weight);
+    font-size:var(--small-size);
+    line-height:var(--small-lh);
+    align-self: flex-end;
+    width:36%;
+    margin-top:16px;
+}

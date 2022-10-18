@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Rock+Salt&display=swap');
+
+:root {
+    /* Colours */
+    --pink: #DF8480;
+    --white: #FFFFFF;
+    --black: #000000;
+    /* Fonts */
+    --title-font: 'Rock Salt';
+    --primary-font: 'Nunito';
+    /* Font-weights */
+    --regular-weight: 400;
+    --bold-weight: 700;
+    --black-weight: 900;
+    /* Font sizes */
+    --small-size: 16px;
+    --regular-size:36px;
+    --large-size: 48px;
+    /* Line-heights */
+    --small-lh:22px;
+    --regular-lh:38px;
+    --large-lh: 49px;
+    --x-large-lh:65px;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
