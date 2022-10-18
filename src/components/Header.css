@@ -70,6 +70,14 @@ h2 {
     }
 
     h2 {
-        margin-left:250px;
+        margin-left:25%;
+        width:20%;
+    }
+}
+
+@media (min-width:1621px) {
+    h2 {
+        font-size:var(--large-size);
+        margin-top:3%;
     }
 }
