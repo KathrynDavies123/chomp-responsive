@@ -1,0 +1,78 @@
+footer {
+    background-color: var(--black);
+    color:var(--white);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+footer p {
+    font-weight:var(--bold-weight);
+    text-align: center;
+}
+
+.signupform {
+    margin:16px 36.5px;
+}
+
+form {
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    margin-top:24px;
+    gap:16px;
+}
+
+input {
+    text-align: center;
+    height:54px;
+    width:382px;
+    border-radius: 74px;
+    font-weight:var(--bold-weight);
+    border: var(--black);
+}
+
+input[type="email"] {
+    color:var(--grey);
+}
+
+input[type="submit"] {
+    color:var(--white);
+    background-color: var(--pink);
+}
+
+.socialmediaicons {
+    width:100vw;
+    display:flex;
+    justify-content: space-around;
+    margin-top:70px;
+    margin-bottom:16px;
+}
+
+.socialmediaicons img {
+    width:42px;
+    height:42px;
+}
+
+.copyright {
+    margin-bottom:32px;
+}
+
+@media (min-width:414px) {
+    .socialcopyright {
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width:95vw;
+        margin: 70px 16px 32px 16px;
+    }
+
+    .socialmediaicons {
+        width:185px;
+        margin:0;
+    }
+
+    .copyright {
+        margin:0;
+    }
+}

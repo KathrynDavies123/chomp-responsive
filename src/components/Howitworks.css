@@ -1,6 +1,7 @@
 .howitworks {
     display:flex;
     flex-direction:column;
+    margin-bottom:16px;
 }
 
 h3 {
@@ -12,6 +13,12 @@ h3 {
   line-height: var(--small-lh);
   text-align: center;
   padding: 24px 0;
+}
+
+@media (min-width:414px) {
+    .howitworks {
+        margin-bottom:26.5px;
+    }
 }
 
 @media (min-width:800px) {

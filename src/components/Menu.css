@@ -1,0 +1,86 @@
+.imgContainer {
+  height: 141px;
+  width: 100vw;
+  background-image: url("../img/bulldog.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.details {
+  height: 186px;
+  margin: 32px 71px;
+  background-image: url("../img/dogfood.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details p {
+  font-weight: var(--bold-weight);
+  font-size: var(--small-size);
+  line-height: var(--small-lh);
+}
+
+.details p:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+.descriptiontext {
+  line-height: var(--small-lh);
+  text-align: center;
+  margin: 16px;
+}
+
+@media (min-width: 414px) {
+  .imgdetails {
+    display: flex;
+  }
+
+  .imgContainer {
+    height: 250px;
+    width: 50%;
+  }
+
+  .details {
+    width: 50%;
+    margin: 32px 14px;
+  }
+}
+
+@media (min-width: 800px) {
+  .menucontainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom:16px;
+  }
+
+  .imgdetails {
+    width: 66%;
+    margin-right: 64px;
+    margin-left: 116px;
+  }
+
+  .imgContainer {
+    margin-right: 64px;
+    border-radius: 8px;
+  }
+
+  .descriptioncontainer {
+    width: 33%;
+    display: flex;
+    background-color: var(--pink);
+    color: var(--white);
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 116px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .details p {
+    padding: 0 15%;
+  }
+}
