@@ -1,5 +1,5 @@
 .imgContainer {
-  height: 141px;
+  height: 8.8rem;
   width: 100vw;
   background-image: url("../img/bulldog.png");
   background-size: cover;
@@ -7,8 +7,8 @@
 }
 
 .details {
-  height: 186px;
-  margin: 32px 71px;
+  height: 11.6rem;
+  margin: 2rem 4.4rem;
   background-image: url("../img/dogfood.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -20,8 +20,6 @@
 
 .details p {
   font-weight: var(--bold-weight);
-  font-size: var(--small-size);
-  line-height: var(--small-lh);
 }
 
 .details p:nth-of-type(2) {
@@ -31,7 +29,7 @@
 .descriptiontext {
   line-height: var(--small-lh);
   text-align: center;
-  margin: 16px;
+  margin: 1rem;
 }
 
 @media (min-width: 414px) {
@@ -40,13 +38,13 @@
   }
 
   .imgContainer {
-    height: 250px;
+    height: 15.6rem;
     width: 50%;
   }
 
   .details {
     width: 50%;
-    margin: 32px 14px;
+    margin: 2rem 0.9rem;
   }
 }
 
@@ -54,17 +52,17 @@
   .menucontainer {
     display: flex;
     justify-content: center;
-    margin-bottom:16px;
+    margin-bottom:1rem;
   }
 
   .imgdetails {
     width: 66%;
-    margin-right: 64px;
-    margin-left: 116px;
+    margin-right: 4rem;
+    margin-left: 7.25rem;
   }
 
   .imgContainer {
-    margin-right: 64px;
+    margin-right: 4rem;
     border-radius: 8px;
   }
 
@@ -75,7 +73,7 @@
     color: var(--white);
     align-items: center;
     border-radius: 8px;
-    margin-right: 116px;
+    margin-right: 7.25rem;
   }
 }
 

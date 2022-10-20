@@ -13,7 +13,6 @@ h1 {
     font-family:var(--title-font);
     font-weight:var(--regular-weight);
     font-size:var(--small-size);
-    line-height: var(--regular-lh);
 }
 
 h2 {
@@ -24,7 +23,7 @@ h2 {
     line-height:var(--small-lh);
     align-self: flex-end;
     width:36%;
-    margin-top:16px;
+    margin-top:1rem;
 }
 
 @media (min-width:414px) {
@@ -34,7 +33,7 @@ h2 {
 
     h2 {
         width:25%;
-        margin-right:16px;
+        margin-right:1rem;
     }
 }
 
@@ -51,12 +50,11 @@ h2 {
         background-color: white;
         width:100vw;
         text-align: center;
-        padding:24px;
+        padding:1.5rem;
     }
 
     h2 {
         color:var(--white);
-        font-weight:var(--black-weight);
         font-size:var(--regular-size);
         line-height:var(--large-lh);
         align-self: flex-start;

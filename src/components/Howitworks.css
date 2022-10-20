@@ -1,23 +1,12 @@
 .howitworks {
     display:flex;
     flex-direction:column;
-    margin-bottom:16px;
-}
-
-h3 {
-  color: var(--white);
-  background-color: var(--pink);
-  font-family: var(--primary-font);
-  font-weight: var(--black-weight);
-  font-size: var(--small-size);
-  line-height: var(--small-lh);
-  text-align: center;
-  padding: 24px 0;
+    margin-bottom:1rem;
 }
 
 @media (min-width:414px) {
     .howitworks {
-        margin-bottom:26.5px;
+        margin-bottom:1.55rem;
     }
 }
 
@@ -25,15 +14,8 @@ h3 {
     .container {
         display:flex;
         flex-direction:row;
-        gap:72px;
+        gap:4.5rem;
         align-items: center;
-        margin: 24px 124px;
-    }
-    
-    h3 {
-        color:var(--pink);
-        background-color: var(--white);
-        font-size:var(--large-size);
-        line-height:var(--x-large-lh);
+        margin: 1.5rem 8rem;
     }
 }
